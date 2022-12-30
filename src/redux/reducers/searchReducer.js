@@ -18,7 +18,6 @@ export const searchReducer = (state = initialState, action) => {
       };
     }
     case TOGGLE_SEARCH: {
-      console.log(action.type);
       return {
         ...state,
         searchHistory: state.searchHistory.map((search) => {

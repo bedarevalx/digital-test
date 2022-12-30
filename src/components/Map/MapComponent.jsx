@@ -63,7 +63,6 @@ const MapComponent = () => {
   return (
     <ReactMapGL
       ref={mapRef}
-      onLoad={() => console.log('loaded')}
       style={{ height: '95vh' }}
       mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
       initialViewState={{
